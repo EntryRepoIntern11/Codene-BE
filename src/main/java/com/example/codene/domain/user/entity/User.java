@@ -27,7 +27,9 @@ public class User {
     @Column(nullable = false)
     private Boolean isRateOpen = true;
 
+    @Enumerated(EnumType.STRING)
     private CodeChoice codeChoice;
 
+    @Enumerated(EnumType.STRING)
     private SubjectChoice subjectChoice;
 }
