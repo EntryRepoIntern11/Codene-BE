@@ -1,6 +1,6 @@
 package com.example.codene.domain.subject.service;
 
-import com.example.codene.domain.subject.repository.SubjectRepository;
+import com.example.codene.domain.subject.entity.repository.SubjectRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 

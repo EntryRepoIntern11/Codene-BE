@@ -1,7 +1,7 @@
-package com.example.codene.domain.subject.controller;
+package com.example.codene.domain.subject.presentation.controller;
 
-import com.example.codene.domain.subject.dto.CreateSubjectDto;
-import com.example.codene.domain.subject.dto.UpdateSubjectDto;
+import com.example.codene.domain.subject.presentation.dto.CreateSubjectDto;
+import com.example.codene.domain.subject.presentation.dto.UpdateSubjectDto;
 import com.example.codene.domain.subject.service.*;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;

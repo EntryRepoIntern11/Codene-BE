@@ -1,8 +1,8 @@
 package com.example.codene.domain.subject.service;
 
-import com.example.codene.domain.subject.dto.UpdateSubjectDto;
+import com.example.codene.domain.subject.presentation.dto.UpdateSubjectDto;
 import com.example.codene.domain.subject.entity.Subject;
-import com.example.codene.domain.subject.repository.SubjectRepository;
+import com.example.codene.domain.subject.entity.repository.SubjectRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

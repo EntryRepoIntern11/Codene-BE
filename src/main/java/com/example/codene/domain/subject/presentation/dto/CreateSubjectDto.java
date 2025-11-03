@@ -1,4 +1,4 @@
-package com.example.codene.domain.subject.dto;
+package com.example.codene.domain.subject.presentation.dto;
 
 import lombok.Getter;
 import lombok.NoArgsConstructor;

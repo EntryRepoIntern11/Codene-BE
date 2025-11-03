@@ -1,4 +1,4 @@
-package com.example.codene.domain.subject.repository;
+package com.example.codene.domain.subject.entity.repository;
 
 import com.example.codene.domain.subject.entity.Subject;
 import org.springframework.data.jpa.repository.JpaRepository;
