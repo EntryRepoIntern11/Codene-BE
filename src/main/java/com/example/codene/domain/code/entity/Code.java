@@ -22,4 +22,10 @@ public class Code {
     @ManyToOne
     @JoinColumn(name = "user_id", nullable = false)
     private User user;
+
+    public void updateCode(String title, String contents, String language) {
+        this.title = title;
+        this.contents = contents;
+        this.language = language;
+    }
 }

@@ -7,7 +7,7 @@ import lombok.Setter;
 @Getter
 @Setter
 @NoArgsConstructor
-public class UpdateSubjectDto {
+public class UpdateSubjectRequest {
 
     private String title;
 

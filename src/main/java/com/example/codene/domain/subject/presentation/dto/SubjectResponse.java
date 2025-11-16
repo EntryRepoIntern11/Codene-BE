@@ -3,7 +3,7 @@ package com.example.codene.domain.subject.presentation.dto;
 import lombok.Getter;
 
 @Getter
-public class ResponseSubjectDto {
+public class SubjectResponse {
 
     private Long id;
 
@@ -11,5 +11,5 @@ public class ResponseSubjectDto {
 
     private String contents;
 
-    private String author;  // 주제 작성자, 변경 필요
+    private String author;
 }
