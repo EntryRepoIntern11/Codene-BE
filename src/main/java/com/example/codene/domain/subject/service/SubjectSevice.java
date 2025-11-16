@@ -4,7 +4,7 @@ import com.example.codene.domain.subject.presentation.dto.CreateSubjectRequest;
 import com.example.codene.domain.subject.entity.Subject;
 import com.example.codene.domain.subject.entity.repository.SubjectRepository;
 import com.example.codene.domain.subject.presentation.dto.UpdateSubjectRequest;
-import com.example.codene.global.error.NotFoundException;
+import com.example.codene.global.exception.NotFoundException;
 import jakarta.transaction.Transactional;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;

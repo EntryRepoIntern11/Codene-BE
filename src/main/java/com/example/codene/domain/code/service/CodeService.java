@@ -4,7 +4,7 @@ import com.example.codene.domain.code.entity.Code;
 import com.example.codene.domain.code.entity.repository.CodeRepository;
 import com.example.codene.domain.code.presentation.dto.CreateCodeRequest;
 import com.example.codene.domain.code.presentation.dto.UpdateCodeRequest;
-import com.example.codene.global.error.NotFoundException;
+import com.example.codene.global.exception.NotFoundException;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 
